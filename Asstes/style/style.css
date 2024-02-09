@@ -1,0 +1,668 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    max-width: 1145px;
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    padding-right: 5px;
+}
+
+.hatr {
+    color: white;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    font-family: "Lato, sans-serif";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.hat {
+    color: white;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    font-family: "Lato, sans-serif";
+    font-weight: 400;
+    font-size: 16px;
+    justify-content: center;
+}
+
+li:hover {
+    color: #f1ac73;
+}
+
+.tmbg {
+    display: flex;
+    gap: 11px;
+}
+
+
+.connect {
+    width: 139px;
+    text-align: center;
+    padding: 8px 0px 8px 0px;
+    border-radius: 8px;
+    background: #f1ac73;
+    border: none;
+}
+
+.connect:hover {
+    background: white;
+}
+
+.container {
+    width: 100%;
+    background: #000;
+
+}
+
+.cant {
+    max-width: 1104px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.Welcome {
+    max-width: 411px;
+    width: 100%;
+    color: var(--WHITE, #FFF);
+    font-family: Lato;
+    font-size: 72px;
+    margin-top: 120px;
+    font-weight: 800;
+}
+
+.Viverra {
+    max-width: 547px;
+    width: 100%;
+    color: #FFF;
+    margin-top: 28px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.button {
+    display: inline-flex;
+    padding: 12px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 60px;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: var(--1, #F1AC73);
+}
+
+.button:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+.cant1 {
+    max-width: 1115px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 112px;
+}
+
+.our {
+    max-width: 263px;
+    width: 100%;
+    color: var(--WHITE, #FFF);
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 97px;
+}
+
+.one {
+
+    margin-top: 20px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.partners {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    color: var(--WHITE, #FFF);
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.img {
+    height: 452px;
+    background: url(/Asstes/svg/backgroundimg.svg) no-repeat center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative
+}
+
+.capital {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 42px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.playbit {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    color: var(--000000, #000);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.business {
+    color: var(--1, #F1AC73);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    position: absolute;
+    bottom: 0px;
+    top: 420px;
+
+}
+
+.cant3 {
+    max-width: 1140px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 160px;
+
+}
+
+.algo {
+    color: var(--WHITE, #FFF);
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 78px;
+}
+
+.have {
+    color: var(--WHITE, #FFF);
+    margin-top: 20px;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 77px;
+}
+
+.farme {
+    max-width: 472px;
+    width: 100%;
+    display: flex;
+    column-gap: 24px;
+
+}
+
+.cant4 {
+    max-width: 1143px;
+    width: 100%;
+    height: 471px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 130px;
+
+}
+
+.what {
+    color: var(--WHITE, #FFF);
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 108px;
+}
+
+.drops {
+    color: var(--WHITE, #FFF);
+    margin-top: 20px;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 108px;
+}
+
+.cant5 {
+    max-width: 1143px;
+    width: 100%;
+
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    margin-top: 131px;
+}
+
+.it {
+    display: flex;
+    justify-content: center;
+    color: var(--WHITE, #FFF);
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.nft {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    column-gap: 15px;
+}
+
+.card {
+    max-width: 241px;
+    width: 100%;
+    border-radius: 24.827px;
+    border: 3.729px solid #F1AC73;
+    padding: 16px 16px 51px 16px;
+}
+
+.vector {
+    width: 71.768px;
+    height: 71.768px;
+    flex-shrink: 0;
+    background: var(--1, #F1AC73);
+    color: #FFF;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-family: Lato;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.mint {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 19px;
+}
+
+.own {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 17px;
+}
+
+.card:hover {
+    background: var(--1, #F1AC73);
+}
+
+.card:hover .vector {
+    background: #FFF;
+    color: var(--1, #F1AC73);
+}
+
+.cant6 {
+    max-width: 1143px;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.link {
+    display: flex;
+    column-gap: 25px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.meet {
+    display: flex;
+    justify-content: center;
+    color: var(--WHITE, #FFF);
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.card2 {
+    max-width: 555px;
+    width: 100%;
+    background: #FFF;
+    border-radius: 25px;
+    display: flex;
+}
+
+.muthu {
+    color: var(--000000, #000);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 107px;
+}
+
+.Director {
+    color: var(--000000, #000);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.www {
+    color: var(--000000, #000);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.icon {
+    display: flex;
+    column-gap: 8px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.cant7 {
+    max-width: 967px;
+    width: 100%;
+    margin: 160px auto 0px;
+
+}
+
+.faq {
+    color: var(--1, #F1AC73);
+    text-align: center;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.amet {
+    border-radius: 10px;
+    border: 1px solid #F1AC73;
+    display: flex;
+    justify-content: space-between;
+    padding: 27px 48px;
+    margin-top: 60px;
+}
+.amet:hover{
+    background-color: #FFF;
+}
+.amet:hover .duis{
+    color: #000;
+}
+.amet:hover .metus{
+    color: #000;
+}
+
+.duis {
+    max-width: 635px;
+    width: 100%;
+    color: #FFF;
+    /* margin-top: 25px; */
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.metus {
+    max-width: 635px;
+    width: 100%;
+    color: #FFF;
+    margin-top: 7px;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.cant8 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 167px;
+}
+
+.cyber {
+    color: var(--1, #F1AC73);
+    font-family: Lato;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 9px;
+}
+
+.Viverr {
+    width: 482px;
+
+    color: #FFF;
+
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.footer {
+    color: #FFF;
+    border-top: #FFF solid;
+    opacity: 0.3;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+@media (max-width:1280px) {
+    .container {
+        padding: 0px 16px;
+    }
+
+    .playbit {
+        width: 100px;
+        font-size: 16px;
+        font-weight: 20px;
+
+    }
+}
+
+@media (max-width:992px) {
+    .cant {
+        display: block;
+        display: grid;
+        justify-content: center;
+
+    }
+
+    .partners {
+        margin-top: 50px;
+    }
+
+    .cant1 {
+        display: block;
+        display: grid;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .cant3 {
+        display: block;
+        display: grid;
+        margin-top: 60px;
+        justify-content: center;
+    }
+
+    .cant4 {
+        display: block;
+        display: grid;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .cant5 {
+        margin-top: 40px;
+    }
+
+    .cant6 {
+        margin-top: 30px;
+    }
+
+    .cant7 {
+        margin-top: 40px;
+    }
+
+    .cant8 {
+        margin-top: 50px;
+    }
+
+    .link {
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 16px;
+        justify-content: center;
+    }
+
+    .nft {
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 15px;
+        justify-content: center;
+    }
+
+    .farme {
+        display: inline-block;
+        display: grid;
+        justify-content: center;
+        row-gap: 16px;
+    }
+    .tmbg{
+        display: none;
+    }
+    .img12{
+        width: 190px;
+    }
+    
+
+
+}
+
+@media (max-width:576px) {
+    .Welcome {
+        font-size: 50px;
+    }
+
+    .card2 {
+        display: inline-block;
+        display: grid;
+        justify-content: center;
+
+    }
+
+    .www {
+        max-width: 274px;
+        width: 100%;
+    }
+
+    .nft {
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 15px;
+        justify-content: center;
+    }
+
+    .capital {
+        /* width: 40px;
+        font-size: 10px;
+        font-weight: 100px; */
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+    .hatr{
+        display: none;
+    }
+    .muthu{
+        margin-top: 16px;
+    }
+    .icon{
+        margin-bottom: 16px;
+        margin-top: 15px;
+    }
+}
